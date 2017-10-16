@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 4 Feb 2014 20:24:43 +0000
+Source: softether-vpn
+Binary: softether-vpnbridge softether-vpnclient softether-vpncmd softether-vpnserver
+Architecture: i386
+Version: 0:4.22.9634-beta
+Distribution: unstable
+Urgency: low
+Maintainer: Dmitry Orlov <me@mosquito.su>
+Changed-By: Dmitry Orlov <me@mosquito.su>
+Description:
+ softether-vpnbridge - VPN Bridge daemon
+ softether-vpnclient - VPN Client daemon
+ softether-vpncmd - Command line utils
+ softether-vpnserver - VPN Server daemon
+Changes:
+ softether-vpn (0:4.22.9634-beta) unstable; urgency=low
+ .
+   * Testing debianization
+Checksums-Sha1:
+ 77cb3e2e3a79001129c3dcad8dad6e7b7ad57ce1 2085056 softether-vpnbridge_4.22.9634-beta_i386.deb
+ c4b957775df38494e006eacef618e0c06295ed4d 2085764 softether-vpnclient_4.22.9634-beta_i386.deb
+ f972985abb62bf702704ca8d62592d7c85d43e04 2085814 softether-vpncmd_4.22.9634-beta_i386.deb
+ 7db565ce8d7781a9a8495a9177a44e9b6ac6527c 2086492 softether-vpnserver_4.22.9634-beta_i386.deb
+Checksums-Sha256:
+ f70fd2c05b5142ce75554a183d71a933533ee3d2d6016998d3a7a4e2f0132cef 2085056 softether-vpnbridge_4.22.9634-beta_i386.deb
+ 25c9dcfc2d9af3d14eb1685d962d0e616601eade84a7713937cf2c65327b07c8 2085764 softether-vpnclient_4.22.9634-beta_i386.deb
+ 7c6ba7a087eb6eb681170470d4faf2ec9271cc80794edda80486ebf169222617 2085814 softether-vpncmd_4.22.9634-beta_i386.deb
+ eb93d636aabb0aedc6650cf60aff2fae68fc80b8ff26dcda2122af1bd68c6c76 2086492 softether-vpnserver_4.22.9634-beta_i386.deb
+Files:
+ 9b636e22f0381d9f7593b4aef388034f 2085056 net optional softether-vpnbridge_4.22.9634-beta_i386.deb
+ 960f8549957f7668d115b5a3dda9ae57 2085764 net optional softether-vpnclient_4.22.9634-beta_i386.deb
+ 7e61d7959fe6a169168e592d91b6de95 2085814 net optional softether-vpncmd_4.22.9634-beta_i386.deb
+ 179f2f8fedfbd1be9ce35285eea95747 2086492 net optional softether-vpnserver_4.22.9634-beta_i386.deb

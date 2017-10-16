@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 4 Feb 2014 20:24:43 +0000
+Source: softether-vpn
+Binary: softether-vpnbridge softether-vpnclient softether-vpncmd softether-vpnserver
+Architecture: amd64
+Version: 0:4.22.9634-beta
+Distribution: unstable
+Urgency: low
+Maintainer: Dmitry Orlov <me@mosquito.su>
+Changed-By: Dmitry Orlov <me@mosquito.su>
+Description:
+ softether-vpnbridge - VPN Bridge daemon
+ softether-vpnclient - VPN Client daemon
+ softether-vpncmd - Command line utils
+ softether-vpnserver - VPN Server daemon
+Changes:
+ softether-vpn (0:4.22.9634-beta) unstable; urgency=low
+ .
+   * Testing debianization
+Checksums-Sha1:
+ caa23f31f1bae090e8f6ad333959f7c3e8bab319 1978956 softether-vpnbridge_4.22.9634-beta_amd64.deb
+ be207485ead0b393aa484b9b90311743231644b3 1978602 softether-vpnclient_4.22.9634-beta_amd64.deb
+ d8d810e01a1166bcd1eebeac5c6a4fd81f55270f 1979486 softether-vpncmd_4.22.9634-beta_amd64.deb
+ cc1372ac6c85123fb6bf47b6b787e0c2331e8b9e 1980508 softether-vpnserver_4.22.9634-beta_amd64.deb
+Checksums-Sha256:
+ ccd8d82a72bb65d113b10a93f4aad611d157976de89d6592166d05d5011a68eb 1978956 softether-vpnbridge_4.22.9634-beta_amd64.deb
+ dd916ff1ad3548e643a2fd941a2fa567e252230ac5206b0a30c0ef847064f9bd 1978602 softether-vpnclient_4.22.9634-beta_amd64.deb
+ 9c81c7900c548eb0cb2ca30ee5ac839acfa0da6ea31e4e66598f3a3ee4f1b435 1979486 softether-vpncmd_4.22.9634-beta_amd64.deb
+ 21b5a0c21ca4efcd0be07f86b9bd5004da973339ecbf7aaf2444269bd8439f41 1980508 softether-vpnserver_4.22.9634-beta_amd64.deb
+Files:
+ ad01b086a5dc8ea2a8c427eb1f8c3045 1978956 net optional softether-vpnbridge_4.22.9634-beta_amd64.deb
+ 6a0d8b5678f45dcf68c354fa4d91f9f4 1978602 net optional softether-vpnclient_4.22.9634-beta_amd64.deb
+ c92639c0223a184b704c32d9d56e97a6 1979486 net optional softether-vpncmd_4.22.9634-beta_amd64.deb
+ 4e6fcdc5c6f49071a5d728cb144b78ae 1980508 net optional softether-vpnserver_4.22.9634-beta_amd64.deb
